@@ -1,0 +1,29 @@
+PS C:\Users\User\OneDrive\ドキュメント\git\test> mkdir git_challenge  
+
+
+    ディレクトリ: C:\Users\User\OneDrive\ドキュメント\git\test        
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/03/17     17:15                git_challenge       
+
+
+PS C:\Users\User\OneDrive\ドキュメント\git\test> cd git_challenge     
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/OneDrive/繝峨く繝･繝｡繝ｳ繝・git/test/git_challenge/.git/
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git add hello_world
+fatal: pathspec 'hello_world' did not match any files
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) fd91a94] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git commit -m "日本語訳を追記"       
+[main b867c79] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> git log --oneline
+b867c79 (HEAD -> main) 日本語訳を追記
+fd91a94 hello_world.txtを追加
+PS C:\Users\User\OneDrive\ドキュメント\git\test\git_challenge> 
